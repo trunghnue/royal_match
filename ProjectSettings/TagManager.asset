@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Touchable
+  - Scrollable
+  - Pinchable
+  - Blocker
+  - loweffect
+  - effect
   layers:
   - Default
   - TransparentFX
@@ -13,9 +19,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Level
+  - TutorialRenderTexture
+  - ParticleCollision
   - 
   - 
   - 
@@ -40,4 +46,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 312907987
+    locked: 0
+  - name: Cell
+    uniqueID: 1795358237
+    locked: 0
+  - name: Item
+    uniqueID: 231352099
+    locked: 0
+  - name: Particles
+    uniqueID: 151353909
+    locked: 0
+  - name: Front
+    uniqueID: 1998041671
+    locked: 0
+  - name: Ui
+    uniqueID: 487648401
+    locked: 0
+  - name: Dialog
+    uniqueID: 2046106761
+    locked: 0
+  - name: Loading
+    uniqueID: 1619420009
     locked: 0
