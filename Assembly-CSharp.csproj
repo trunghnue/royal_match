@@ -24,7 +24,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,7 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoStandardLibraries>true</NoStandardLibraries>
@@ -54,6 +54,92 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shader\Spine_Outline_Skeleton.shader" />
+    <None Include="Assets\TextAsset\Cookie_Jar.atlas.txt" />
+    <None Include="Assets\Shader\Royal_Blend_Saturation.shader" />
+    <None Include="Assets\Shader\Spine_Skeleton Fill.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Mobile_Distance Field Overlay.shader" />
+    <None Include="Assets\Shader\Royal_Distortion_0.shader" />
+    <None Include="Assets\Resources\Royal_Lightning.shader" />
+    <None Include="Assets\Shader\TextMeshPro_Mobile_Distance Field.shader" />
+    <None Include="Assets\Shader\Spine_Outline_Skeleton Fill.shader" />
+    <None Include="Assets\TextAsset\Area08HarpSkeleton.atlas.txt" />
+    <None Include="Assets\Resources\shaders 2d (sprites)\Alpha Masked_Sprites Alpha Masked - World Coords.shader" />
+    <None Include="Assets\Shader\Royal_Distortion.shader" />
+    <None Include="Assets\Shader\RoyalMatch_PoolDissolve.shader" />
+    <None Include="Assets\Shader\Custom_TextureLoop.shader" />
+    <None Include="Assets\TextAsset\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Shader\Spine_Skeleton Tint.shader" />
+    <None Include="Assets\TextAsset\Frog.atlas.txt" />
+    <None Include="Assets\TextAsset\flower_pot.atlas.txt" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Bitmap.shader" />
+    <None Include="Assets\TextAsset\bear_item.atlas.txt" />
+    <None Include="Assets\Shader\Royal_PoolDistortion.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Distance Field Overlay.shader" />
+    <None Include="Assets\Shader\Custom_StencilMaskClippingWriteNoCull.shader" />
+    <None Include="Assets\TextAsset\tutorial_hand.atlas.txt" />
+    <None Include="Assets\TextAsset\honey_jar.atlas.txt" />
+    <None Include="Assets\Shader\Royal_RadialGradient.shader" />
+    <None Include="Assets\Shader\Royal_CandyCaneShaderFallback.shader" />
+    <None Include="Assets\Shader\TextMeshPro_Mobile_Distance Field (UIShiny).shader" />
+    <None Include="Assets\TextAsset\export_anim_cannon.atlas.txt" />
+    <None Include="Assets\Shader\Royal_TextureScrollFallbackShader.shader" />
+    <None Include="Assets\TextAsset\jester_hat.atlas.txt" />
+    <None Include="Assets\Shader\Custom_StencilMaskRead.shader" />
+    <None Include="Assets\Shader\TextMeshPro_Distance Field.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Mobile_Bitmap.shader" />
+    <None Include="Assets\TextAsset\SeedBox.atlas.txt" />
+    <None Include="Assets\TextAsset\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Mobile_Distance Field.shader" />
+    <None Include="Assets\TextAsset\AreaCompleted.atlas.txt" />
+    <None Include="Assets\Shader\Royal_Blend_Overlay.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Sprite.shader" />
+    <None Include="Assets\TextAsset\bush_export.atlas.txt" />
+    <None Include="Assets\TextAsset\honey.atlas.txt" />
+    <None Include="Assets\TextAsset\lightbulb.atlas.txt" />
+    <None Include="Assets\TextAsset\jelly.atlas.txt" />
+    <None Include="Assets\TextAsset\win_logo_animation.atlas.txt" />
+    <None Include="Assets\Shader\RoyalMatch_Dissolve Burn.shader" />
+    <None Include="Assets\Shader\WaterCaustics_Caustics_0.shader" />
+    <None Include="Assets\Shader\Royal_Blend_Color.shader" />
+    <None Include="Assets\TextAsset\double_piggy.atlas.txt" />
+    <None Include="Assets\TextAsset\skeleton.atlas.txt" />
+    <None Include="Assets\TextAsset\pouch.atlas.txt" />
+    <None Include="Assets\TextAsset\skeleton.atlas_1.txt" />
+    <None Include="Assets\TextAsset\mailbox.atlas.txt" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Mobile_Distance Field - Masking.shader" />
+    <None Include="Assets\TextAsset\episode_chest.atlas.txt" />
+    <None Include="Assets\Shader\Royal_CandyCaneShader.shader" />
+    <None Include="Assets\Shader\Spine_Skeleton.shader" />
+    <None Include="Assets\Resources\Royal_GridVfxShader.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Distance Field (Surface).shader" />
+    <None Include="Assets\Shader\WaterCaustics_Caustics.shader" />
+    <None Include="Assets\Shader\Hidden_BlitCopyHDRTonemap.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Bitmap Custom Atlas.shader" />
+    <None Include="Assets\Resources\EmojiReplacements.txt" />
+    <None Include="Assets\Shader\TextMeshPro_Sprite.shader" />
+    <None Include="Assets\TextAsset\skeleton.atlas_0.txt" />
+    <None Include="Assets\Shader\Custom_StencilMaskClippingWrite.shader" />
+    <None Include="Assets\Resources\nv-emphasis-template.txt" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Mobile_Distance Field (Surface).shader" />
+    <None Include="Assets\Shader\Custom_StencilMaskWrite.shader" />
+    <None Include="Assets\Shader\Royal_Blend_Saturation_0.shader" />
+    <None Include="Assets\Resources\nv-constant-template.txt" />
+    <None Include="Assets\Shader\Royal_ShinyFX.shader" />
+    <None Include="Assets\Shader\Spine_Skeleton-StencilWrite.shader" />
+    <None Include="Assets\Resources\shaders\TextMeshPro_Distance Field.shader" />
+    <None Include="Assets\Resources\shaders 3d\Alpha Masked_Unlit Alpha Masked - World Coords.shader" />
+    <None Include="Assets\Resources\Royal_ParticleTextureBlend.shader" />
+    <None Include="Assets\Shader\Royal_Shiny_Reflect.shader" />
+    <None Include="Assets\Shader\WaterCaustics_CausticsWithDepth.shader" />
+    <None Include="Assets\Shader\Royal_TextureScrollShader.shader" />
+    <None Include="Assets\TextAsset\gummy.atlas.txt" />
+    <None Include="Assets\Resources\nv-pattern-template.txt" />
+    <None Include="Assets\Shader\Custom_RadialFill.shader" />
+    <None Include="Assets\Shader\Royal_StencilMasked.shader" />
+    <None Include="Assets\TextAsset\King.atlas.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -293,14 +379,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
