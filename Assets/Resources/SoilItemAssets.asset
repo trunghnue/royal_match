@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc8f2b49c45938387ad0c280e563867, type: 3}
+  m_Name: SoilItemAssets
+  m_EditorClassIdentifier:
+  prefabs:
+  - {fileID: 114102003180262222, guid: d2de27483da174a4ea196a4152ad5424, type: 2}
+  - {fileID: 114798595018453431, guid: f605669de2ccd6a43a7e9b0cdc369059, type: 2}
+  - {fileID: 114545322227466859, guid: 13353f55df64bc24ebfd6147c54f5ec6, type: 2}
+  - {fileID: 114091145265720901, guid: 8cd37ab583229224e959fc0551828a70, type: 2}
+  sprites:
+  - {fileID: 21300000, guid: 1e5e0ab8f61b5a746a95d3cd06cd5b3d, type: 2}
+  - {fileID: 21300000, guid: 17f8353d23eb6ba43873d0253a245aec, type: 2}
+  - {fileID: 21300000, guid: 55b66829f7f2ed543be10e91a37f7f59, type: 2}
+  - {fileID: 21300000, guid: a7b7c52ea4b05454c9561697702ca70b, type: 2}
+  - {fileID: 21300000, guid: 15ecd773eaa74e9428cd7023042549bb, type: 2}
+  - {fileID: 21300000, guid: b02ea7be6319b5845b0d5ca2ac65b540, type: 2}
+  - {fileID: 21300000, guid: 39f25fe7e6eb95f4883869963caa26ae, type: 2}
+  - {fileID: 21300000, guid: aa0e21e393467734e8d6203274b2df8d, type: 2}
+  audioClips:
+  - {fileID: 8300000, guid: 8b2c12428818f264d8ce1f513c2521f7, type: 3}
+  - {fileID: 8300000, guid: bcc0114d40fe0d045bd2a955052c60c2, type: 3}
+  - {fileID: 8300000, guid: 4d82bbb8df23e3949b25d630d48cd411, type: 3}
+  - {fileID: 8300000, guid: 495d86496a61d3b4fbe6df8fc2258f30, type: 3}
+  - {fileID: 8300000, guid: 6742aa7560ff78240b9ec5afaf9ebeb0, type: 3}
+  hapticClips: []
+  goalAssets:
+  - goalType: 35
+    iconSprite: {fileID: 21300000, guid: c7c6b6a3736953b4f9837d914a39f464, type: 2}
+    shadowSprite: {fileID: 0}
+    shadowPosition: {x: 0, y: -0.04}
+    shadowScale: {x: 1, y: 1}
+    shadowAlpha: 0.235
+    iconScale: 0.922
+    iconOffset: {x: 0.021, y: 0}
+  alternativeAudioClipTypes: 1801000019010000
+  bombSprites:
+  - {fileID: 21300000, guid: de9e3c1853b49f3408fa2dabe2748c37, type: 2}
+  - {fileID: 21300000, guid: 1d554686c627fcc469c0d267760ec156, type: 2}
+  - {fileID: 21300000, guid: 62dace9f189e3124aa1748234a0cc3f1, type: 2}
+  - {fileID: 21300000, guid: 0ebc4eb2bed01d247aa6f018c91c79e6, type: 2}
+  dirtGroupSprites:
+  - {fileID: 21300000, guid: f4485ebd339e79745bd350a6789da2b9, type: 2}
+  - {fileID: 21300000, guid: 563daf0a1dafe59489dfbe9477e8cd94, type: 2}
+  - {fileID: 21300000, guid: e5e6671e923f7af46b29a5316e2ed115, type: 2}
+  - {fileID: 21300000, guid: b75ba8a02023e2849bf0da6a83dddf29, type: 2}
+  - {fileID: 21300000, guid: 53caf2b11ce67be4593b8cdb367f86f2, type: 2}
+  - {fileID: 21300000, guid: 34ea5a76ddd8df24d97af92836a0c551, type: 2}
+  - {fileID: 21300000, guid: 649a6f4d1913ad7488dfd8bd327a7b8a, type: 2}
+  smallRockConfig:
+    sprites:
+    - {fileID: 21300000, guid: 2bb68eb5b64a5c5468790134b0ec3112, type: 2}
+    - {fileID: 21300000, guid: 3d11e11eabd2eec4ca9a61821adf0c88, type: 2}
+    minZAngle: -15
+    maxZAngle: 15
+    minScale: 0.2
+    maxScale: 0.4
+  mediumRockConfig:
+    sprites:
+    - {fileID: 21300000, guid: 2bb68eb5b64a5c5468790134b0ec3112, type: 2}
+    - {fileID: 21300000, guid: 3d11e11eabd2eec4ca9a61821adf0c88, type: 2}
+    minZAngle: -15
+    maxZAngle: 15
+    minScale: 0.7
+    maxScale: 0.9
+  largeRockConfig:
+    sprites:
+    - {fileID: 21300000, guid: 24d1135633268fc46bdaa8cc2da7b2a9, type: 2}
+    minZAngle: -15
+    maxZAngle: 15
+    minScale: 0.7
+    maxScale: 1
+  edgeCrackConfig:
+    sprites:
+    - {fileID: 21300000, guid: 22425500d640fa147abb5a219106fe89, type: 2}
+    - {fileID: 21300000, guid: 0ab4752a337fc2344ba685182f184e04, type: 2}
+    minZAngle: -15
+    maxZAngle: 15
+    minScale: 0.75
+    maxScale: 1.2
+  nonEdgeCrackConfig:
+    sprites:
+    - {fileID: 21300000, guid: b280f1bfccd7bc7458c93c92e2b2c878, type: 2}
+    - {fileID: 21300000, guid: 6750b680d787246409b89d467bc53c30, type: 2}
+    - {fileID: 21300000, guid: 66fd76e00928d9749bd1e292dc7f19c9, type: 2}
+    - {fileID: 21300000, guid: 97401f4633177c2488749faf0335ddf4, type: 2}
+    minZAngle: -15
+    maxZAngle: 15
+    minScale: 0.75
+    maxScale: 1.2
+  minCrackAlpha: 0.78
+  maxCrackAlpha: 1
