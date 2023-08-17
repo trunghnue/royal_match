@@ -79,7 +79,7 @@ public class ObjectPooler : MonoBehaviour
         var parentPoolObject = GetParentPoolObject(item.poolName);
         obj.transform.parent = parentPoolObject.transform;
         var poolBehaviour = obj.AddComponent<PoolBehaviour>();
-        poolBehaviour.name = item.objectToPool.name;
+        poolBehaviour.objName = item.objectToPool.name;
 #if UNITY_EDITOR
         if (!Application.isPlaying)
         {
